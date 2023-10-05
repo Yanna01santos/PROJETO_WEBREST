@@ -1,0 +1,93 @@
+.produto{
+  
+}
+
+.cabecalho-container {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+}
+
+.cabecalho-container h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  margin: 0;
+  text-align: center;
+}
+
+.listaDeProdutos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Estilo dos produtos */
+.produto {
+  text-align: center;
+  width: 250px;
+  height: 400px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo da imagem do produto */
+.produto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Estilo do título do produto */
+.produto h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #333;
+  border: none; /* Removendo a borda do título */
+}
+
+/* Estilo do preço do produto */
+.produto p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #4CAF50;
+  border: none; /* Removendo a borda do valor */
+}
+
+/* Estilo do botão de comprar */
+.produto button {
+  background-color: #092eff93;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.produto button:hover {
+  background-color: #03a3ff;
+}
+
+/* Estilo do rodapé */
+.rodape {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
